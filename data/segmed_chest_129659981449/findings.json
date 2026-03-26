@@ -1,0 +1,388 @@
+{
+  "case_id": "segmed_chest_129659981449",
+  "study": {
+    "id": "a3c9e8b8-1192-48f7-a1b4-d384fb140563",
+    "case_id": "segmed_chest_129659981449",
+    "patient_id": "Segmed_Patient_4933856878169822837",
+    "display_name": "segmed_chest_129659981449",
+    "study_description": "CT Chest w IV Contrast",
+    "created_at": "2026-03-12T21:51:52.077262+00:00"
+  },
+  "exported_at": "2026-03-26T23:02:12.192131+00:00",
+  "findings_count": 12,
+  "finding_locations_count": 12,
+  "findings": [
+    {
+      "id": "387efcde-16d4-42a8-9046-ad1b26a583fb",
+      "study_id": "a3c9e8b8-1192-48f7-a1b4-d384fb140563",
+      "variant": "baseline",
+      "mode": "MEDIASTINUM",
+      "text": "Mediastinal lymphadenopathy, including right paraesophageal, right paratracheal, and right hilar.",
+      "source": "ai",
+      "created_at": "2026-03-12T21:51:52.649823+00:00",
+      "updated_at": "2026-03-16T05:06:19.746126+00:00",
+      "generation": "ground_truth",
+      "model_id": null,
+      "model_version": null,
+      "locations": [
+        {
+          "id": "8d5880f2-1999-47bf-8f5a-29725bfe0885",
+          "finding_id": "387efcde-16d4-42a8-9046-ad1b26a583fb",
+          "series_instance_uid": "series_03_25mm_CONTRAST___STANDARD_554067796008",
+          "slice_range_start": 19,
+          "slice_range_end": 49,
+          "primary_slice": 35,
+          "x": 43.932038834951456,
+          "y": 49.676375404530745,
+          "bbox_min_x": 39.32038834951456,
+          "bbox_max_x": 48.54368932038835,
+          "bbox_min_y": 43.203883495145625,
+          "bbox_max_y": 56.148867313915865,
+          "created_by": null,
+          "created_at": "2026-03-14T22:23:05.856616+00:00"
+        }
+      ]
+    },
+    {
+      "id": "3a1343b8-fa37-4256-9bb0-ef1f56fc8bc2",
+      "study_id": "a3c9e8b8-1192-48f7-a1b4-d384fb140563",
+      "variant": "baseline",
+      "mode": "MEDIASTINUM",
+      "text": "A small superior mediastinal lymph node now measures about 11 mm in diameter, up from about 9 mm.",
+      "source": "ai",
+      "created_at": "2026-03-12T21:51:52.649823+00:00",
+      "updated_at": "2026-03-12T21:51:52.649823+00:00",
+      "generation": "ground_truth",
+      "model_id": null,
+      "model_version": null,
+      "locations": [
+        {
+          "id": "cac51f51-973a-45f0-960e-7e40bdafd264",
+          "finding_id": "3a1343b8-fa37-4256-9bb0-ef1f56fc8bc2",
+          "series_instance_uid": "series_03_25mm_CONTRAST___STANDARD_554067796008",
+          "slice_range_start": 19,
+          "slice_range_end": 22,
+          "primary_slice": 21,
+          "x": 45.954692556634306,
+          "y": 48.05825242718447,
+          "bbox_min_x": 42.55663430420712,
+          "bbox_max_x": 49.35275080906149,
+          "bbox_min_y": 45.46925566343042,
+          "bbox_max_y": 50.64724919093852,
+          "created_by": null,
+          "created_at": "2026-03-14T22:23:48.307964+00:00"
+        }
+      ]
+    },
+    {
+      "id": "3e56bfb3-b47e-404f-af17-df6cc9b75e4f",
+      "study_id": "a3c9e8b8-1192-48f7-a1b4-d384fb140563",
+      "variant": "baseline",
+      "mode": "UPPER_ABDOMEN",
+      "text": "16 mm splenic cyst.",
+      "source": "ai",
+      "created_at": "2026-03-12T21:51:52.649823+00:00",
+      "updated_at": "2026-03-16T05:08:46.073996+00:00",
+      "generation": "ground_truth",
+      "model_id": null,
+      "model_version": null,
+      "locations": [
+        {
+          "id": "4eafcf63-e08e-4e05-a27a-c4cd8f03c47d",
+          "finding_id": "3e56bfb3-b47e-404f-af17-df6cc9b75e4f",
+          "series_instance_uid": "series_03_25mm_CONTRAST___STANDARD_554067796008",
+          "slice_range_start": 115,
+          "slice_range_end": 123,
+          "primary_slice": 115,
+          "x": 78.31715210355986,
+          "y": 58.576051779935284,
+          "bbox_min_x": 72.97734627831716,
+          "bbox_max_x": 83.65695792880258,
+          "bbox_min_y": 54.53074433656958,
+          "bbox_max_y": 62.62135922330098,
+          "created_by": null,
+          "created_at": "2026-03-14T22:26:29.479081+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5e9abf2c-f5ee-48e9-9797-412d2df36712",
+      "study_id": "a3c9e8b8-1192-48f7-a1b4-d384fb140563",
+      "variant": "baseline",
+      "mode": "PLEURA",
+      "text": "Pleural thickening in the right hemithorax posteriorly.",
+      "source": "ai",
+      "created_at": "2026-03-12T21:51:52.649823+00:00",
+      "updated_at": "2026-03-16T05:04:20.21758+00:00",
+      "generation": "ground_truth",
+      "model_id": null,
+      "model_version": null,
+      "locations": [
+        {
+          "id": "68f0f443-fc63-448b-96bc-f60446fd4bbe",
+          "finding_id": "5e9abf2c-f5ee-48e9-9797-412d2df36712",
+          "series_instance_uid": "series_02_25mm_CONTRAST__LUNG_565641814044",
+          "slice_range_start": 34,
+          "slice_range_end": 62,
+          "primary_slice": 28,
+          "x": 34.8705501618123,
+          "y": 73.38187702265373,
+          "bbox_min_x": 21.521035598705502,
+          "bbox_max_x": 48.22006472491909,
+          "bbox_min_y": 64.88673139158576,
+          "bbox_max_y": 81.87702265372168,
+          "created_by": null,
+          "created_at": "2026-03-14T22:20:49.930937+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6ab4c320-6385-4488-951c-bc0d8dba815e",
+      "study_id": "a3c9e8b8-1192-48f7-a1b4-d384fb140563",
+      "variant": "baseline",
+      "mode": "CARDIAC",
+      "text": "Mild calcification in the arch of the aorta.",
+      "source": "ai",
+      "created_at": "2026-03-12T21:51:52.649823+00:00",
+      "updated_at": "2026-03-12T21:51:52.649823+00:00",
+      "generation": "ground_truth",
+      "model_id": null,
+      "model_version": null,
+      "locations": [
+        {
+          "id": "52ef8f73-c54b-4c6d-a21c-de6d1c20dd95",
+          "finding_id": "6ab4c320-6385-4488-951c-bc0d8dba815e",
+          "series_instance_uid": "series_03_25mm_CONTRAST___STANDARD_554067796008",
+          "slice_range_start": 41,
+          "slice_range_end": 43,
+          "primary_slice": 42,
+          "x": 53.64077669902913,
+          "y": 45.71197411003236,
+          "bbox_min_x": 49.35275080906149,
+          "bbox_max_x": 57.92880258899677,
+          "bbox_min_y": 41.74757281553398,
+          "bbox_max_y": 49.676375404530745,
+          "created_by": null,
+          "created_at": "2026-03-14T22:24:31.394022+00:00"
+        }
+      ]
+    },
+    {
+      "id": "76d6c1bf-57c6-4bc4-a24a-50d4c058772a",
+      "study_id": "a3c9e8b8-1192-48f7-a1b4-d384fb140563",
+      "variant": "baseline",
+      "mode": "BONE",
+      "text": "Moderate compression deformity of T9 vertebral body and mild compression deformity of the T3 vertebral body.",
+      "source": "ai",
+      "created_at": "2026-03-12T21:51:52.649823+00:00",
+      "updated_at": "2026-03-16T05:08:16.891813+00:00",
+      "generation": "ground_truth",
+      "model_id": null,
+      "model_version": null,
+      "locations": [
+        {
+          "id": "144661d4-b1a4-439e-9969-0e166468c2e6",
+          "finding_id": "76d6c1bf-57c6-4bc4-a24a-50d4c058772a",
+          "series_instance_uid": "series_07_CT_Chest2_Sag_5_Avg_140389476846",
+          "slice_range_start": 38,
+          "slice_range_end": 45,
+          "primary_slice": 38,
+          "x": 70.3074433656958,
+          "y": 55.420711974110034,
+          "bbox_min_x": 60.03236245954693,
+          "bbox_max_x": 80.58252427184466,
+          "bbox_min_y": 50,
+          "bbox_max_y": 60.84142394822006,
+          "created_by": null,
+          "created_at": "2026-03-14T22:25:22.669145+00:00"
+        }
+      ]
+    },
+    {
+      "id": "7c530580-632e-4f72-891d-ff22be6f77cf",
+      "study_id": "a3c9e8b8-1192-48f7-a1b4-d384fb140563",
+      "variant": "baseline",
+      "mode": "LUNG",
+      "text": "Endobronchial mucous plugging in the right lower lobe.",
+      "source": "ai",
+      "created_at": "2026-03-12T21:51:52.649823+00:00",
+      "updated_at": "2026-03-16T05:02:37.241759+00:00",
+      "generation": "ground_truth",
+      "model_id": null,
+      "model_version": null,
+      "locations": [
+        {
+          "id": "2e60fe16-f2f0-47b3-8ddf-5e2518b266f7",
+          "finding_id": "7c530580-632e-4f72-891d-ff22be6f77cf",
+          "series_instance_uid": "series_02_25mm_CONTRAST__LUNG_565641814044",
+          "slice_range_start": 75,
+          "slice_range_end": 86,
+          "primary_slice": 75,
+          "x": 27.370689655172413,
+          "y": 68.10344827586206,
+          "bbox_min_x": 21.767241379310345,
+          "bbox_max_x": 32.974137931034484,
+          "bbox_min_y": 63.4698275862069,
+          "bbox_max_y": 72.73706896551724,
+          "created_by": null,
+          "created_at": "2026-03-18T21:23:10.683895+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b58c23b0-d570-4dc7-923e-cdef6472bf97",
+      "study_id": "a3c9e8b8-1192-48f7-a1b4-d384fb140563",
+      "variant": "baseline",
+      "mode": "LUNG",
+      "text": "There are scattered areas of ground glass opacities in the left lower lobe.",
+      "source": "ai",
+      "created_at": "2026-03-12T21:51:52.649823+00:00",
+      "updated_at": "2026-03-16T05:03:49.057437+00:00",
+      "generation": "ground_truth",
+      "model_id": null,
+      "model_version": null,
+      "locations": [
+        {
+          "id": "7e7eb54a-c632-43cb-ba5a-e0e1147988ec",
+          "finding_id": "b58c23b0-d570-4dc7-923e-cdef6472bf97",
+          "series_instance_uid": "series_02_25mm_CONTRAST__LUNG_565641814044",
+          "slice_range_start": 79,
+          "slice_range_end": 105,
+          "primary_slice": 85,
+          "x": 69.09385113268608,
+          "y": 52.508090614886726,
+          "bbox_min_x": 57.76699029126213,
+          "bbox_max_x": 80.42071197411003,
+          "bbox_min_y": 34.14239482200647,
+          "bbox_max_y": 70.87378640776699,
+          "created_by": null,
+          "created_at": "2026-03-14T22:19:56.326665+00:00"
+        }
+      ]
+    },
+    {
+      "id": "bb6fe9c1-7d54-499f-a274-510ba4d23474",
+      "study_id": "a3c9e8b8-1192-48f7-a1b4-d384fb140563",
+      "variant": "baseline",
+      "mode": "LUNG",
+      "text": "Significant scarring in the right lung with retraction of the heart and mediastinum to the right and elevation of the right hemidiaphragm.",
+      "source": "ai",
+      "created_at": "2026-03-12T21:51:52.649823+00:00",
+      "updated_at": "2026-03-12T21:51:52.649823+00:00",
+      "generation": "ground_truth",
+      "model_id": null,
+      "model_version": null,
+      "locations": [
+        {
+          "id": "2f1674e8-0b29-4876-8c55-c707fbd84f38",
+          "finding_id": "bb6fe9c1-7d54-499f-a274-510ba4d23474",
+          "series_instance_uid": "series_02_25mm_CONTRAST__LUNG_565641814044",
+          "slice_range_start": 26,
+          "slice_range_end": 100,
+          "primary_slice": 40,
+          "x": 41.2621359223301,
+          "y": 61.89320388349515,
+          "bbox_min_x": 34.46601941747573,
+          "bbox_max_x": 48.05825242718447,
+          "bbox_min_y": 49.35275080906149,
+          "bbox_max_y": 74.4336569579288,
+          "created_by": null,
+          "created_at": "2026-03-14T22:16:39.127526+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c42b9f0c-1423-4ae4-9baa-a4b1cf0915b3",
+      "study_id": "a3c9e8b8-1192-48f7-a1b4-d384fb140563",
+      "variant": "baseline",
+      "mode": "UPPER_ABDOMEN",
+      "text": "3.2-cm right adrenal mass suggestive of adrenal metastasis.",
+      "source": "ai",
+      "created_at": "2026-03-12T21:51:52.649823+00:00",
+      "updated_at": "2026-03-16T05:08:36.604626+00:00",
+      "generation": "ground_truth",
+      "model_id": null,
+      "model_version": null,
+      "locations": [
+        {
+          "id": "8f5ae7cc-4ea6-4c9b-a7d4-21ab671f3865",
+          "finding_id": "c42b9f0c-1423-4ae4-9baa-a4b1cf0915b3",
+          "series_instance_uid": "series_03_25mm_CONTRAST___STANDARD_554067796008",
+          "slice_range_start": 106,
+          "slice_range_end": 125,
+          "primary_slice": 107,
+          "x": 38.51132686084142,
+          "y": 57.605177993527505,
+          "bbox_min_x": 31.715210355987054,
+          "bbox_max_x": 45.307443365695796,
+          "bbox_min_y": 50.48543689320388,
+          "bbox_max_y": 64.72491909385113,
+          "created_by": null,
+          "created_at": "2026-03-14T22:26:05.959976+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e6189c09-4dea-4cdd-a4a1-7100a1adb57a",
+      "study_id": "a3c9e8b8-1192-48f7-a1b4-d384fb140563",
+      "variant": "baseline",
+      "mode": "MEDIASTINUM",
+      "text": "Slight shift of the superior mediastinum to the right.",
+      "source": "ai",
+      "created_at": "2026-03-12T21:51:52.649823+00:00",
+      "updated_at": "2026-03-12T21:51:52.649823+00:00",
+      "generation": "ground_truth",
+      "model_id": null,
+      "model_version": null,
+      "locations": [
+        {
+          "id": "8c78177b-3c9a-43bb-b4af-19a9e11760c3",
+          "finding_id": "e6189c09-4dea-4cdd-a4a1-7100a1adb57a",
+          "series_instance_uid": "series_02_25mm_CONTRAST__LUNG_565641814044",
+          "slice_range_start": 31,
+          "slice_range_end": 46,
+          "primary_slice": 37,
+          "x": 44.82200647249191,
+          "y": 49.919093851132686,
+          "bbox_min_x": 37.86407766990291,
+          "bbox_max_x": 51.7799352750809,
+          "bbox_min_y": 39.15857605177994,
+          "bbox_max_y": 60.679611650485434,
+          "created_by": null,
+          "created_at": "2026-03-14T22:21:43.821175+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f362a25a-a9b3-45eb-93ab-7bd6c5a9e450",
+      "study_id": "a3c9e8b8-1192-48f7-a1b4-d384fb140563",
+      "variant": "baseline",
+      "mode": "LUNG",
+      "text": "The mass density present in the medial portion of the right upper lobe measures approximately 3 cm in diameter, and is adherent to the right side of the mediastinum.",
+      "source": "ai",
+      "created_at": "2026-03-12T21:51:52.649823+00:00",
+      "updated_at": "2026-03-16T05:01:34.017689+00:00",
+      "generation": "ground_truth",
+      "model_id": null,
+      "model_version": null,
+      "locations": [
+        {
+          "id": "eda65342-3462-47fc-96e0-b32797b36e6d",
+          "finding_id": "f362a25a-a9b3-45eb-93ab-7bd6c5a9e450",
+          "series_instance_uid": "series_02_25mm_CONTRAST__LUNG_565641814044",
+          "slice_range_start": 28,
+          "slice_range_end": 43,
+          "primary_slice": 28,
+          "x": 42.637540453074436,
+          "y": 58.00970873786408,
+          "bbox_min_x": 37.54045307443366,
+          "bbox_max_x": 47.73462783171521,
+          "bbox_min_y": 53.398058252427184,
+          "bbox_max_y": 62.62135922330098,
+          "created_by": null,
+          "created_at": "2026-03-14T22:17:34.17219+00:00"
+        }
+      ]
+    }
+  ]
+}

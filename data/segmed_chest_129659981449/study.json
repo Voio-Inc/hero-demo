@@ -1,0 +1,71 @@
+{
+  "studyId": "segmed_chest_129659981449",
+  "studyInstanceUID": "segmed_chest_129659981449",
+  "patientId": "SEGMED-493385687816",
+  "accessionNumber": "ACC-1296599814",
+  "modalityType": "CHEST_CT",
+  "studyDescription": "CT Chest w IV Contrast",
+  "seriesDescription": "Scout",
+  "sliceCount": 683,
+  "studyDate": "2012-04-13",
+  "studyTime": "12:00:00",
+  "seriesNumber": 1,
+  "series": [
+    {
+      "seriesInstanceUID": "series_01_Scout_374914518080",
+      "seriesNumber": 1,
+      "seriesDescription": "Scout",
+      "modality": "CT",
+      "orientation": null,
+      "sliceCount": 2
+    },
+    {
+      "seriesInstanceUID": "series_02_25mm_CONTRAST__LUNG_565641814044",
+      "seriesNumber": 2,
+      "seriesDescription": "25mm CONTRAST  LUNG",
+      "modality": "CT",
+      "orientation": null,
+      "sliceCount": 134
+    },
+    {
+      "seriesInstanceUID": "series_03_25mm_CONTRAST___STANDARD_554067796008",
+      "seriesNumber": 3,
+      "seriesDescription": "25mm CONTRAST   STANDARD",
+      "modality": "CT",
+      "orientation": null,
+      "sliceCount": 134
+    },
+    {
+      "seriesInstanceUID": "series_04_LT_PULM_ART_MIP_828570759301",
+      "seriesNumber": 4,
+      "seriesDescription": "LT PULM ART MIP",
+      "modality": "CT",
+      "orientation": null,
+      "sliceCount": 116
+    },
+    {
+      "seriesInstanceUID": "series_05_RT_PULM_ART_MIP_368124939916",
+      "seriesNumber": 5,
+      "seriesDescription": "RT PULM ART MIP",
+      "modality": "CT",
+      "orientation": null,
+      "sliceCount": 116
+    },
+    {
+      "seriesInstanceUID": "series_06_CT_Chest1_Cor_3_Avg_604629608453",
+      "seriesNumber": 6,
+      "seriesDescription": "CT Chest1 Cor 3 Avg",
+      "modality": "CT",
+      "orientation": "coronal",
+      "sliceCount": 102
+    },
+    {
+      "seriesInstanceUID": "series_07_CT_Chest2_Sag_5_Avg_140389476846",
+      "seriesNumber": 7,
+      "seriesDescription": "CT Chest2 Sag 5 Avg",
+      "modality": "CT",
+      "orientation": "sagittal",
+      "sliceCount": 79
+    }
+  ]
+}

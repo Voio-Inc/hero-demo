@@ -1,0 +1,510 @@
+{
+  "patientId": "lumbar_spine_demo",
+  "reportText": {
+    "examination": "MR Lumbar Spine Without Contrast",
+    "technique": "MRI images of the lumbar were obtained with sagittal T2, sagittal T1, sagittal STIR, axial T2, and axial gradient imaging sequences.",
+    "comparison": "Prior lumbar spine MRI available for comparison.",
+    "indication": "Chronic lower back pain, history of herniated discs.",
+    "findings": "The lumbar lordosis is maintained. There is no subluxation. There is no compression fracture. There is mild disc desiccation at L1-L2, L4-L5, and L5-S1. There are small anterior osteophytes at T12-L1 and also at L4-L5. These findings are consistent with mild degenerative disc disease.\n\nConus medullaris terminates at L1. There is no abnormal signal in the distal spinal cord and conus medullaris.\n\nL5-S1: There is a minimal disc bulge. There is a tiny posterior annular tear. There is severe bilateral facet joint arthropathy. There is no significant central canal or neural foraminal stenosis.\n\nL4-L5: There is a broad-based disc osteophyte complex. There is severe right and moderate left facet joint arthropathy. There is no significant central canal stenosis. Facet and endplate osteophytes result in moderate right neural foraminal stenosis, similar to the prior exam.\n\nL3-L4: Minimal disc bulge. Moderate right facet arthropathy. No significant central canal stenosis. Right facet osteophytes extend into the right foramen, with resulting mild right foraminal encroachment, unchanged.\n\nL2-L3: No disc herniation. Mild bilateral facet joint arthropathy. No significant central canal or neural foraminal stenosis.\n\nL1-L2: Mild disc bulge with a posterior annular tear, unchanged. No significant central canal or neural foraminal stenosis.\n\nT12-L1: No disc herniation. No significant central canal or neural foraminal stenosis.\n\nThere is partial visualization of probable cysts in the kidneys.",
+    "impression": "1. No significant interval change compared to the prior exam. There is stable mild multilevel degenerative disc disease in the lumbar spine. There is also no significant change in moderate to severe bilateral facet joint arthropathy at L4-L5 and L5-S1.\n\n2. There is no significant central canal stenosis at any level in the lumbar spine.\n\n3. Facet and endplate osteophytes result in stable moderate right neural foraminal stenosis at L4-L5 and mild right foraminal stenosis at L2-L3.\n\n4. No acute compression fracture or subluxation in the lumbar spine."
+  },
+  "findings": [
+    {
+      "id": 1,
+      "text": "Mild disc bulge with posterior annular tear",
+      "mode": "L1_L2",
+      "status": "pending",
+      "source": "ai",
+      "locations": [
+        {
+          "seriesInstanceUID": "T2W_SAG",
+          "sliceRange": [
+            13,
+            15
+          ],
+          "primarySlice": 13,
+          "x": 42.49360580773504,
+          "y": 73.06559537034644,
+          "boundingBox": {
+            "minX": 36.37584932957863,
+            "maxX": 48.61136228589144,
+            "minY": 68.60128658898907,
+            "maxY": 77.52990415170382
+          }
+        },
+        {
+          "seriesInstanceUID": "T2W_SPAIR",
+          "sliceRange": [
+            2,
+            12
+          ],
+          "primarySlice": 10,
+          "x": 46.2562279790939,
+          "y": 68.63641681120204,
+          "boundingBox": {
+            "minX": 39.4853602073462,
+            "maxX": 53.0270957508416,
+            "minY": 64.17210839026949,
+            "maxY": 73.1007252321346
+          }
+        },
+        {
+          "seriesInstanceUID": "T2W_AX",
+          "sliceRange": [
+            18,
+            18
+          ],
+          "primarySlice": 18,
+          "x": 49.334994975473194,
+          "y": 44.52915133816628,
+          "boundingBox": {
+            "minX": 31.70097671278962,
+            "maxX": 66.96901323815676,
+            "minY": 31.731467198159635,
+            "maxY": 57.326835478172924
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Mild bilateral facet joint arthropathy",
+      "mode": "L2_L3",
+      "status": "pending",
+      "source": "ai",
+      "locations": [
+        {
+          "seriesInstanceUID": "T2W_SAG",
+          "sliceRange": [
+            4,
+            12
+          ],
+          "primarySlice": 12,
+          "x": 53.771147154330365,
+          "y": 45.27320274165504,
+          "boundingBox": {
+            "minX": 45.58658171595402,
+            "maxX": 61.9557125927067,
+            "minY": 38.57674011025621,
+            "maxY": 51.969665373053864
+          }
+        },
+        {
+          "seriesInstanceUID": "T2W_SPAIR",
+          "sliceRange": [
+            2,
+            10
+          ],
+          "primarySlice": 4,
+          "x": 55.287406203383256,
+          "y": 44.157125636421895,
+          "boundingBox": {
+            "minX": 48.665348712333305,
+            "maxX": 61.9094636944332,
+            "minY": 37.23744758397645,
+            "maxY": 51.076803688867344
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Minimal disc bulge with mild right foraminal encroachment",
+      "mode": "L3_L4",
+      "status": "pending",
+      "source": "ai",
+      "locations": [
+        {
+          "seriesInstanceUID": "T2W_SAG",
+          "sliceRange": [
+            13,
+            14
+          ],
+          "primarySlice": 14,
+          "x": 45.06574573351189,
+          "y": 32.84754430339277,
+          "boundingBox": {
+            "minX": 38.146067681066434,
+            "maxX": 51.98542378595734,
+            "minY": 27.713589619320338,
+            "maxY": 37.98149898746521
+          }
+        },
+        {
+          "seriesInstanceUID": "T2W_AX",
+          "sliceRange": [
+            19,
+            20
+          ],
+          "primarySlice": 19,
+          "x": 48.562275557392724,
+          "y": 47.43715606996151,
+          "boundingBox": {
+            "minX": 33.43322913168161,
+            "maxX": 63.69132198310383,
+            "minY": 41.3193995918051,
+            "maxY": 53.55491254811792
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Moderate right facet arthropathy with right foraminal osteophytes",
+      "mode": "L3_L4",
+      "status": "pending",
+      "source": "ai",
+      "locations": [
+        {
+          "seriesInstanceUID": "T2W_SAG",
+          "sliceRange": [
+            4,
+            10
+          ],
+          "primarySlice": 10,
+          "x": 56.524137347238764,
+          "y": 82.10374721434857,
+          "boundingBox": {
+            "minX": 47.96754620711805,
+            "maxX": 65.08072848735948,
+            "minY": 74.44001775841436,
+            "maxY": 89.76747667028278
+          }
+        },
+        {
+          "seriesInstanceUID": "T1W_SAG",
+          "sliceRange": [
+            5,
+            12
+          ],
+          "primarySlice": 12,
+          "x": 58.04039639629166,
+          "y": 74.58882803911212,
+          "boundingBox": {
+            "minX": 52.236795449079345,
+            "maxX": 63.84399734350398,
+            "minY": 69.0828476532953,
+            "maxY": 80.09480842492891
+          }
+        },
+        {
+          "seriesInstanceUID": "T2W_SPAIR",
+          "sliceRange": [
+            5,
+            12
+          ],
+          "primarySlice": 7,
+          "x": 57.37075013315177,
+          "y": 74.73763831980986,
+          "boundingBox": {
+            "minX": 51.34393376489284,
+            "maxX": 63.397566501410715,
+            "minY": 69.23165793399305,
+            "maxY": 80.24361870562667
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Broad-based disc osteophyte complex",
+      "mode": "L4_L5",
+      "status": "pending",
+      "source": "ai",
+      "locations": [
+        {
+          "seriesInstanceUID": "T2W_SAG",
+          "sliceRange": [
+            4,
+            12
+          ],
+          "primarySlice": 4,
+          "x": 53.175906031539355,
+          "y": 70.42214017957507,
+          "boundingBox": {
+            "minX": 45.58658171595402,
+            "maxX": 60.765230347124685,
+            "minY": 63.874487828873995,
+            "maxY": 76.96979253027614
+          }
+        },
+        {
+          "seriesInstanceUID": "T1W_SAG",
+          "sliceRange": [
+            5,
+            12
+          ],
+          "primarySlice": 12,
+          "x": 53.84555229467924,
+          "y": 66.25545232003802,
+          "boundingBox": {
+            "minX": 47.37230508432704,
+            "maxX": 60.31879950503143,
+            "minY": 60.005420530732444,
+            "maxY": 72.50548410934358
+          }
+        },
+        {
+          "seriesInstanceUID": "T2W_SPAIR",
+          "sliceRange": [
+            6,
+            12
+          ],
+          "primarySlice": 7,
+          "x": 53.54793173328373,
+          "y": 66.25545232003802,
+          "boundingBox": {
+            "minX": 46.77706396153603,
+            "maxX": 60.31879950503143,
+            "minY": 59.85661025003469,
+            "maxY": 72.65429439004134
+          }
+        },
+        {
+          "seriesInstanceUID": "T2W_AX",
+          "sliceRange": [
+            7,
+            9
+          ],
+          "primarySlice": 8,
+          "x": 47.40046132640242,
+          "y": 37.38625786467419,
+          "boundingBox": {
+            "minX": 27.831909414648077,
+            "maxX": 66.96901323815676,
+            "minY": 23.398091479085544,
+            "maxY": 51.37442425026285
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Severe right and moderate left facet joint arthropathy",
+      "mode": "L4_L5",
+      "status": "pending",
+      "source": "ai",
+      "locations": [
+        {
+          "seriesInstanceUID": "T2W_AX",
+          "sliceRange": [
+            9,
+            9
+          ],
+          "primarySlice": 9,
+          "x": 47.60034791295287,
+          "y": 58.049792888452565,
+          "boundingBox": {
+            "minX": 32.002824639815366,
+            "maxX": 63.19787118609037,
+            "minY": 48.680255939924734,
+            "maxY": 67.4193298369804
+          }
+        },
+        {
+          "seriesInstanceUID": "T1W_SAG",
+          "sliceRange": [
+            3,
+            10
+          ],
+          "primarySlice": 3,
+          "x": 55.06023888874536,
+          "y": 64.82892844532859,
+          "boundingBox": {
+            "minX": 48.99759733381559,
+            "maxX": 61.12288044367513,
+            "minY": 57.167954116826415,
+            "maxY": 72.48990277383075
+          }
+        },
+        {
+          "seriesInstanceUID": "T2W_SPAIR",
+          "sliceRange": [
+            4,
+            12
+          ],
+          "primarySlice": 10,
+          "x": 55.55627319778507,
+          "y": 68.0807089157,
+          "boundingBox": {
+            "minX": 50.540815184161346,
+            "maxX": 60.57173121140879,
+            "minY": 61.797607667863694,
+            "maxY": 74.36381016353631
+          }
+        },
+        {
+          "seriesInstanceUID": "T2W_SAG",
+          "sliceRange": [
+            4,
+            13
+          ],
+          "primarySlice": 11,
+          "x": 52.91075688290662,
+          "y": 73.04105200609709,
+          "boundingBox": {
+            "minX": 47.34414963701656,
+            "maxX": 58.47736412879668,
+            "minY": 65.21473290791502,
+            "maxY": 80.86737110427916
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Moderate right neural foraminal stenosis from facet and endplate osteophytes",
+      "mode": "L4_L5",
+      "status": "pending",
+      "source": "ai",
+      "locations": [
+        {
+          "seriesInstanceUID": "T2W_SAG",
+          "sliceRange": [
+            4,
+            4
+          ],
+          "primarySlice": 4,
+          "x": 49.603861489308564,
+          "y": 71.6080640022046,
+          "boundingBox": {
+            "minX": 43.04518562533909,
+            "maxX": 56.16253735327804,
+            "minY": 65.21473290791502,
+            "maxY": 78.00139509649418
+          }
+        },
+        {
+          "seriesInstanceUID": "T1W_SAG",
+          "sliceRange": [
+            9,
+            9
+          ],
+          "primarySlice": 9,
+          "x": 50.576553767191115,
+          "y": 63.616400134342626,
+          "boundingBox": {
+            "minX": 45.8917852929272,
+            "maxX": 55.261322241455034,
+            "minY": 57.71910334909276,
+            "maxY": 69.51369691959249
+          }
+        },
+        {
+          "seriesInstanceUID": "T2W_SPAIR",
+          "sliceRange": [
+            10,
+            10
+          ],
+          "primarySlice": 10,
+          "x": 52.580067343546816,
+          "y": 66.86818060471406,
+          "boundingBox": {
+            "minX": 46.57254071184368,
+            "maxX": 58.58759397524995,
+            "minY": 60.25438981751794,
+            "maxY": 73.48197139191016
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Minimal disc bulge with tiny posterior annular tear",
+      "mode": "L5_S1",
+      "status": "pending",
+      "source": "ai",
+      "locations": [
+        {
+          "seriesInstanceUID": "T2W_SAG",
+          "sliceRange": [
+            4,
+            10
+          ],
+          "primarySlice": 10,
+          "x": 55.231093719232504,
+          "y": 51.52323453096061,
+          "boundingBox": {
+            "minX": 46.823312859809526,
+            "maxX": 63.63887457865547,
+            "minY": 40.213653197931485,
+            "maxY": 62.83281586398973
+          }
+        },
+        {
+          "seriesInstanceUID": "T2W_SPAIR",
+          "sliceRange": [
+            5,
+            12
+          ],
+          "primarySlice": 7,
+          "x": 56.077706505145514,
+          "y": 44.157125636421895,
+          "boundingBox": {
+            "minX": 50.19970041758432,
+            "maxX": 61.9557125927067,
+            "minY": 35.00529337351017,
+            "maxY": 53.30895789933362
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Severe bilateral facet joint arthropathy",
+      "mode": "L5_S1",
+      "status": "pending",
+      "source": "ai",
+      "locations": [
+        {
+          "seriesInstanceUID": "T2W_SAG",
+          "sliceRange": [
+            4,
+            10
+          ],
+          "primarySlice": 10,
+          "x": 56.524137347238764,
+          "y": 82.10374721434857,
+          "boundingBox": {
+            "minX": 47.96754620711805,
+            "maxX": 65.08072848735948,
+            "minY": 74.44001775841436,
+            "maxY": 89.76747667028278
+          }
+        },
+        {
+          "seriesInstanceUID": "T1W_SAG",
+          "sliceRange": [
+            5,
+            12
+          ],
+          "primarySlice": 12,
+          "x": 58.04039639629166,
+          "y": 74.58882803911212,
+          "boundingBox": {
+            "minX": 52.236795449079345,
+            "maxX": 63.84399734350398,
+            "minY": 69.0828476532953,
+            "maxY": 80.09480842492891
+          }
+        },
+        {
+          "seriesInstanceUID": "T2W_SPAIR",
+          "sliceRange": [
+            5,
+            12
+          ],
+          "primarySlice": 7,
+          "x": 57.37075013315177,
+          "y": 74.73763831980986,
+          "boundingBox": {
+            "minX": 51.34393376489284,
+            "maxX": 63.397566501410715,
+            "minY": 69.23165793399305,
+            "maxY": 80.24361870562667
+          }
+        }
+      ]
+    }
+  ]
+}

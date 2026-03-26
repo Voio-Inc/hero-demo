@@ -1,0 +1,53 @@
+{
+  "studyId": "lumbar_spine_demo",
+  "studyInstanceUID": "lumbar_spine_demo",
+  "patientId": "TEST001",
+  "patientName": "Test Patient",
+  "accessionNumber": "ACC001",
+  "modalityType": "SPINE_MRI",
+  "studyDescription": "Lumbar Spine MRI",
+  "seriesDescription": "T2W SAG",
+  "sliceCount": 15,
+  "series": [
+    {
+      "seriesInstanceUID": "T2W_SAG",
+      "seriesNumber": 1,
+      "seriesDescription": "T2W SAG",
+      "modality": "MR",
+      "orientation": "sagittal",
+      "sliceCount": 15
+    },
+    {
+      "seriesInstanceUID": "T2W_AX",
+      "seriesNumber": 2,
+      "seriesDescription": "T2W AX",
+      "modality": "MR",
+      "orientation": "axial",
+      "sliceCount": 36
+    },
+    {
+      "seriesInstanceUID": "T1W_SAG",
+      "seriesNumber": 3,
+      "seriesDescription": "T1W SAG",
+      "modality": "MR",
+      "orientation": "sagittal",
+      "sliceCount": 12
+    },
+    {
+      "seriesInstanceUID": "T1W_AX",
+      "seriesNumber": 4,
+      "seriesDescription": "T1W AX",
+      "modality": "MR",
+      "orientation": "axial",
+      "sliceCount": 30
+    },
+    {
+      "seriesInstanceUID": "T2W_SPAIR",
+      "seriesNumber": 5,
+      "seriesDescription": "T2W SPAIR",
+      "modality": "MR",
+      "orientation": "sagittal",
+      "sliceCount": 12
+    }
+  ]
+}

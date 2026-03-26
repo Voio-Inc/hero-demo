@@ -1,0 +1,42 @@
+{
+  "source_dir": "/Users/elliotsalvaggio/code/focus-alpha/converter/data/segmed/ct_downloads_lighter_chest_batch1_20260312/vol_05_segmed_chest_129659981449",
+  "pipeline_case_id": "segmed_chest_129659981449",
+  "raw_study_instance_uid": "1.3.6.1.4.1.55648.129659981449122444395692642681796739647",
+  "series": [
+    {
+      "seriesInstanceUID": "series_01_Scout_374914518080",
+      "sourceDir": "/Users/elliotsalvaggio/code/focus-alpha/converter/data/segmed/ct_downloads_lighter_chest_batch1_20260312/vol_05_segmed_chest_129659981449/series_01_Scout_374914518080",
+      "sliceCount": 2
+    },
+    {
+      "seriesInstanceUID": "series_02_25mm_CONTRAST__LUNG_565641814044",
+      "sourceDir": "/Users/elliotsalvaggio/code/focus-alpha/converter/data/segmed/ct_downloads_lighter_chest_batch1_20260312/vol_05_segmed_chest_129659981449/series_02_25mm_CONTRAST__LUNG_565641814044",
+      "sliceCount": 134
+    },
+    {
+      "seriesInstanceUID": "series_03_25mm_CONTRAST___STANDARD_554067796008",
+      "sourceDir": "/Users/elliotsalvaggio/code/focus-alpha/converter/data/segmed/ct_downloads_lighter_chest_batch1_20260312/vol_05_segmed_chest_129659981449/series_03_25mm_CONTRAST___STANDARD_554067796008",
+      "sliceCount": 134
+    },
+    {
+      "seriesInstanceUID": "series_04_LT_PULM_ART_MIP_828570759301",
+      "sourceDir": "/Users/elliotsalvaggio/code/focus-alpha/converter/data/segmed/ct_downloads_lighter_chest_batch1_20260312/vol_05_segmed_chest_129659981449/series_04_LT_PULM_ART_MIP_828570759301",
+      "sliceCount": 116
+    },
+    {
+      "seriesInstanceUID": "series_05_RT_PULM_ART_MIP_368124939916",
+      "sourceDir": "/Users/elliotsalvaggio/code/focus-alpha/converter/data/segmed/ct_downloads_lighter_chest_batch1_20260312/vol_05_segmed_chest_129659981449/series_05_RT_PULM_ART_MIP_368124939916",
+      "sliceCount": 116
+    },
+    {
+      "seriesInstanceUID": "series_06_CT_Chest1_Cor_3_Avg_604629608453",
+      "sourceDir": "/Users/elliotsalvaggio/code/focus-alpha/converter/data/segmed/ct_downloads_lighter_chest_batch1_20260312/vol_05_segmed_chest_129659981449/series_06_CT_Chest1_Cor_3_Avg_604629608453",
+      "sliceCount": 102
+    },
+    {
+      "seriesInstanceUID": "series_07_CT_Chest2_Sag_5_Avg_140389476846",
+      "sourceDir": "/Users/elliotsalvaggio/code/focus-alpha/converter/data/segmed/ct_downloads_lighter_chest_batch1_20260312/vol_05_segmed_chest_129659981449/series_07_CT_Chest2_Sag_5_Avg_140389476846",
+      "sliceCount": 79
+    }
+  ]
+}
