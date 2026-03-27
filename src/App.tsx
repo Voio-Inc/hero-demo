@@ -1,8 +1,9 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import { FindingsPanel } from "./components/FindingsPanel";
 import { HeroViewer } from "./components/HeroViewer";
 import { Navbar } from "./components/Navbar";
+import { NarrativeSection } from "./components/NarrativeSection";
 import { findings } from "./data/findings";
 
 function App() {
@@ -18,18 +19,32 @@ function App() {
 
   const activeFinding = activeFindingIndex >= 0 ? findings[activeFindingIndex] : null;
 
+  const [pastHero, setPastHero] = useState(false);
+  const pastHeroLocked = useRef(false);
+
+  useEffect(() => {
+    const target = document.getElementById("narrative");
+    if (!target) return;
+    const obs = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !pastHeroLocked.current) {
+          pastHeroLocked.current = true;
+          setPastHero(true);
+        }
+      },
+      { threshold: 0 },
+    );
+    obs.observe(target);
+    return () => obs.disconnect();
+  }, []);
+
   return (
     <main className="relative min-h-screen overflow-x-hidden bg-[var(--panel)] text-white">
-      <Navbar />
-      <HeroViewer findings={findings} activeFinding={activeFinding} onSliceChange={setCurrentSlice} />
-      <FindingsPanel finding={activeFinding} findingIndex={activeFindingIndex} />
+      <Navbar currentSlice={currentSlice} />
+      <HeroViewer findings={findings} activeFinding={activeFinding} onSliceChange={setCurrentSlice} hidePanels={pastHero} />
+      <FindingsPanel finding={activeFinding} findingIndex={activeFindingIndex} hidden={pastHero} />
 
-      <section className="relative z-10 border-t border-[var(--border)] bg-[var(--panel-dark)] px-4 py-16 md:px-6">
-        <div className="mx-auto max-w-[1440px] rounded bg-[var(--panel)]">
-          <div className="h-6 bg-[var(--panel-light)] px-2.5" />
-          <div className="px-3 py-3 text-[12px] text-[#707070]">Placeholder</div>
-        </div>
-      </section>
+      <NarrativeSection />
     </main>
   );
 }
