@@ -11,12 +11,14 @@ type HeroViewerProps = {
   findings: Finding[];
   activeFinding: Finding | null;
   onSliceChange: (slice: number) => void;
+  hidePanels?: boolean;
 };
 
 export function HeroViewer({
   findings,
   activeFinding,
   onSliceChange,
+  hidePanels,
 }: HeroViewerProps) {
   const imageSources = useMemo(
     () =>
@@ -165,8 +167,15 @@ export function HeroViewer({
         </g>
       </svg>
 
-      <div className="pointer-events-none fixed inset-x-0 bottom-8 z-20 mx-auto flex max-w-[1440px] justify-end px-4 md:px-6">
-        <div className="hidden min-w-[170px] rounded bg-[rgba(22,24,23,0.9)] px-3 py-2 text-[11px] shadow-[0_12px_32px_rgba(0,0,0,0.28)] backdrop-blur-sm md:block">
+      <div
+        className="pointer-events-none fixed inset-x-0 bottom-8 z-20 mx-auto flex max-w-[1440px] justify-end px-4 md:px-6"
+        style={{
+          opacity: hidePanels ? 0 : 1,
+          transform: hidePanels ? "translateY(20px)" : "translateY(0)",
+          transition: "opacity 0.5s ease-out, transform 0.5s ease-out",
+        }}
+      >
+        <div className="hidden min-w-[170px] rounded bg-[rgba(22,24,23,0.9)] px-3 py-2 text-[11px] shadow-[0_12px_32px_rgba(0,0,0,0.28)] backdrop-blur-sm md:block" style={{ fontFamily: "var(--font-sans)" }}>
           <div className="mb-0.5 text-[10px] uppercase tracking-wide text-[#707070]">Slice</div>
           <div className="text-[12px] text-white">
             Slice {currentSlice.toString().padStart(3, "0")} / {(NUM_SLICES - 1).toString().padStart(3, "0")}

@@ -5,9 +5,10 @@ import { study, type Finding } from "../data/findings";
 type FindingsPanelProps = {
   finding: Finding | null;
   findingIndex: number;
+  hidden?: boolean;
 };
 
-export function FindingsPanel({ finding, findingIndex }: FindingsPanelProps) {
+export function FindingsPanel({ finding, findingIndex, hidden }: FindingsPanelProps) {
   const [displayFinding, setDisplayFinding] = useState<Finding | null>(finding);
   const [displayIndex, setDisplayIndex] = useState(findingIndex);
   const [visible, setVisible] = useState(true);
@@ -31,7 +32,15 @@ export function FindingsPanel({ finding, findingIndex }: FindingsPanelProps) {
   const nextSlice = currentFinding ? currentFinding.sliceRange[1] : "--";
 
   return (
-    <aside className="pointer-events-none fixed bottom-4 left-4 z-30 w-[calc(100vw-2rem)] max-w-[360px] md:left-6">
+    <aside
+      className="pointer-events-none fixed bottom-4 left-4 z-30 w-[calc(100vw-2rem)] max-w-[360px] md:left-6"
+      style={{
+        fontFamily: "var(--font-sans)",
+        opacity: hidden ? 0 : 1,
+        transform: hidden ? "translateY(20px)" : "translateY(0)",
+        transition: "opacity 0.5s ease-out, transform 0.5s ease-out",
+      }}
+    >
       <div className="overflow-hidden rounded bg-[rgba(22,24,23,0.95)] text-[11px] text-white/72 shadow-[0_12px_32px_rgba(0,0,0,0.34)] backdrop-blur-sm">
         <div className="flex items-center justify-between bg-[rgba(30,32,31,0.96)] px-3 py-1.5">
           <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-wide text-[#707070]">
